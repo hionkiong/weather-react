@@ -1,0 +1,37 @@
+import React from "react";
+import "./BoxC.css";
+
+export default function BoxC() {
+  let weatherData = {
+    city: "London",
+    date: "Saturday 22:00",
+    temperature: "19",
+  };
+  return (
+    <div className="BoxC">
+      <div className="box c">
+        <div className="row row-cols-2">
+          <div className="col md-6">
+            <div className="city">{weatherData.city}</div>
+            <div className="date">{weatherData.date}</div>
+            <div className="currentTemperature">
+              <span className="temperature">{weatherData.temperature}</span>
+              <span className="units">
+                <a href="#" id="celcius-link">
+                  °C
+                </a>
+                |
+                <a href="#" id="fahrenheit-link">
+                  °F
+                </a>
+              </span>
+            </div>
+          </div>
+          <div className="col md-6 currentemoji">
+            <i className="current fas fa-sun" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
