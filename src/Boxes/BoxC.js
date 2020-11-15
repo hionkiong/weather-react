@@ -17,13 +17,13 @@ export default function BoxC() {
             <div className="currentTemperature">
               <span className="temperature">{weatherData.temperature}</span>
               <span className="units">
-                <a href="#" id="celcius-link">
+                <span href="#" id="celcius-link">
                   °C
-                </a>
+                </span>
                 |
-                <a href="#" id="fahrenheit-link">
+                <span href="#" id="fahrenheit-link">
                   °F
-                </a>
+                </span>
               </span>
             </div>
           </div>

@@ -9,33 +9,33 @@ export default function BoxX() {
         <ul className="themes">
           <li>
             {" "}
-            <a href="" id="limeTheme">
+            <span href="" id="limeTheme">
               Dark Lime
-            </a>
+            </span>
           </li>
           <li>
             {" "}
-            <a href="" id="blueTheme">
+            <span href="" id="blueTheme">
               Ocean Blue
-            </a>
+            </span>
           </li>
           <li>
             {" "}
-            <a href="" id="pinkTheme">
+            <span href="" id="pinkTheme">
               Candy Pink
-            </a>
+            </span>
           </li>
           <li>
             {" "}
-            <a href="" id="brownTheme">
+            <span href="" id="brownTheme">
               Sandy Brown
-            </a>
+            </span>
           </li>
           <li>
             {" "}
-            <a href="" id="classicTheme">
+            <span href="" id="classicTheme">
               Classic Blue
-            </a>
+            </span>
           </li>
         </ul>
       </div>
