@@ -1,3 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 200px auto;
+  margin: 20px auto;
+  width: 700px;
+}
 .Search {
   color: rgb(31, 79, 147);
   background-color: rgb(248, 245, 240);

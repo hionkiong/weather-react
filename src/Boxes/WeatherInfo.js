@@ -1,21 +1,16 @@
 import React from "react";
 import "./WeatherInfo.css";
 
-export default function WeatherInfo() {
-  let weatherData = {
-    city: "London",
-    date: "Saturday 22:00",
-    temperature: "19",
-  };
+export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="box c">
         <div className="row row-cols-2">
           <div className="col md-6">
-            <div className="city">{weatherData.city}</div>
-            <div className="date">{weatherData.date}</div>
+            <div className="city">{props.data.city}</div>
+            <div className="date">{props.data.date}</div>
             <div className="currentTemperature">
-              <span className="temperature">{weatherData.temperature}</span>
+              <span className="temperature">{props.data.temperature}</span>
               <span className="units">
                 <span href="#" id="celcius-link">
                   °C
