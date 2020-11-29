@@ -1,14 +1,14 @@
 import React from "react";
-import "./BoxC.css";
+import "./WeatherInfo.css";
 
-export default function BoxC() {
+export default function WeatherInfo() {
   let weatherData = {
     city: "London",
     date: "Saturday 22:00",
     temperature: "19",
   };
   return (
-    <div className="BoxC">
+    <div className="WeatherInfo">
       <div className="box c">
         <div className="row row-cols-2">
           <div className="col md-6">

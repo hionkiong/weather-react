@@ -1,9 +1,9 @@
 import React from "react";
-import "./BoxB.css";
+import "./Search.css";
 
-export default function BoxB() {
+export default function Search() {
   return (
-    <div className="BoxB">
+    <div className="Search">
       <div className="box b">
         <form id="search-location">
           <input

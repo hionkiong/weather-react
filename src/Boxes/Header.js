@@ -1,9 +1,9 @@
 import React from "react";
-import "./BoxZ.css";
+import "./Header.css";
 
-export default function BoxZ() {
+export default function Header() {
   return (
-    <div className="BoxZ">
+    <div className="Header">
       <div className="box z">
         <strong>WEATHER IN YOUR CITY</strong>
       </div>

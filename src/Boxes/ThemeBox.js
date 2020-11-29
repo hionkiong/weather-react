@@ -1,9 +1,9 @@
 import React from "react";
-import "./BoxX.css";
+import "./ThemeBox.css";
 
-export default function BoxX() {
+export default function ThemeBox() {
   return (
-    <div className="BoxX">
+    <div className="ThemeBox">
       <div className="box x">
         <strong> THEMES </strong>
         <ul className="themes">

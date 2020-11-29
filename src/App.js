@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import BoxA from "./Boxes/BoxA";
-import BoxB from "./Boxes/BoxB";
-import BoxC from "./Boxes/BoxC";
-import BoxD from "./Boxes/BoxD";
-import BoxZ from "./Boxes/BoxZ";
-import BoxX from "./Boxes/BoxX";
+import Locations from "./Boxes/Locations";
+import Search from "./Boxes/Search";
+import WeatherInfo from "./Boxes/WeatherInfo";
+import WeatherInfoDetails from "./Boxes/WeatherInfoDetails";
+import Header from "./Boxes/Header";
+import ThemeBox from "./Boxes/ThemeBox";
 import BoxE from "./Boxes/BoxE";
 import Footer from "./Boxes/Footer";
 
@@ -14,12 +14,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="wrapper">
-          <BoxZ />
-          <BoxA />
-          <BoxX />
-          <BoxB />
-          <BoxC />
-          <BoxD />
+          <Header />
+          <Locations />
+          <ThemeBox />
+          <Search />
+          <WeatherInfo />
+          <WeatherInfoDetails />
           <BoxE />
           <Footer />
         </div>

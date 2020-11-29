@@ -1,9 +1,9 @@
 import React from "react";
-import "./BoxA.css";
+import "./Locations.css";
 
-export default function BoxA() {
+export default function Locations() {
   return (
-    <div className="BoxA">
+    <div className="Locations">
       <div className="box a">
         <strong> LOCATIONS </strong>
         <ul className="cities">

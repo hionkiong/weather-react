@@ -1,4 +1,4 @@
-.BoxD {
+.WeatherInfoDetails {
   color: rgb(31, 79, 147);
   background-color: rgb(248, 245, 240);
   font-family: "Oswald", sans-serif;
@@ -25,7 +25,7 @@ li:first-letter {
   font-style: normal;
 }
 
-.BoxD .weatherDetails {
+.WeatherInfoDetails .weatherDetails {
   padding: 0;
   margin: 0;
 }

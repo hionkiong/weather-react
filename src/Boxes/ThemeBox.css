@@ -1,4 +1,4 @@
-.BoxX {
+.ThemeBox {
   color: rgb(31, 79, 147);
   background-color: rgb(248, 245, 240);
   font-family: "Oswald", sans-serif;
@@ -10,16 +10,16 @@
   grid-row: 6 / 8;
 }
 
-.BoxX li {
+.ThemeBox li {
   list-style: none;
   white-space: nowrap;
 }
 
-.BoxX li:first-letter {
+.ThemeBox li:first-letter {
   text-transform: capitalize;
 }
 
-.BoxX .themes {
+.ThemeBox .themes {
   margin: 0;
   padding: 0;
   list-style-type: none;
