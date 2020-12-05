@@ -5,7 +5,7 @@ import WeatherInfo from "./Boxes/WeatherInfo";
 import WeatherInfoDetails from "./Boxes/WeatherInfoDetails";
 import Header from "./Boxes/Header";
 import ThemeBox from "./Boxes/ThemeBox";
-import BoxE from "./Boxes/BoxE";
+import WeatherForecast from "./Boxes/WeatherForecast";
 import Footer from "./Boxes/Footer";
 import Loader from "react-loader-spinner";
 import "./Weather.css";
@@ -68,7 +68,7 @@ export default function Weather() {
         </div>
         <WeatherInfo data={weatherData} />
         <WeatherInfoDetails data={weatherData} />
-        <BoxE />
+        <WeatherForecast city={weatherData.city} />
         <Footer />
       </div>
     );
