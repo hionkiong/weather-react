@@ -14,7 +14,7 @@
   text-transform: capitalize;
 }
 
-.currentemoji {
+.currenticon {
   text-align: center;
   position: relative;
   top: 30px;
@@ -28,9 +28,4 @@
   font-size: 25px;
   position: relative;
   top: -20px;
-}
-
-.current {
-  position: relative;
-  font-size: 150px;
 }
