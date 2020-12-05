@@ -8,6 +8,7 @@ import ThemeBox from "./Boxes/ThemeBox";
 import BoxE from "./Boxes/BoxE";
 import Footer from "./Boxes/Footer";
 import Loader from "react-loader-spinner";
+import "./Weather.css";
 
 export default function Weather() {
   const [ready, setReady] = useState(false);
