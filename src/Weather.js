@@ -3,7 +3,6 @@ import Axios from "axios";
 import WeatherInfo from "./Boxes/WeatherInfo";
 import WeatherInfoDetails from "./Boxes/WeatherInfoDetails";
 import Header from "./Boxes/Header";
-import ThemeBox from "./Boxes/ThemeBox";
 import WeatherForecast from "./Boxes/WeatherForecast";
 import Footer from "./Boxes/Footer";
 import Loader from "react-loader-spinner";
@@ -43,69 +42,10 @@ export default function Weather() {
     setCity(event.target.value);
   }
 
-  function displayLondon(event) {
-    event.preventDefault();
-    setCity("London");
-    search(city);
-  }
-  function displayMadrid(event) {
-    event.preventDefault();
-    setCity("Madrid");
-    search(city);
-  }
-  function displaySeoul(event) {
-    event.preventDefault();
-    setCity("Seoul");
-    search(city);
-  }
-  function displayTokyo(event) {
-    event.preventDefault();
-    setCity("Tokyo");
-    search(city);
-  }
-  function displayParis(event) {
-    event.preventDefault();
-    setCity("Paris");
-    search(city);
-  }
-
   if (ready) {
     return (
       <div className="wrapper">
         <Header />
-        <div className="Locations">
-          <div className="box a">
-            <strong> LOCATIONS </strong>
-            <ul className="cities">
-              <li>
-                <a href="/" onClick={displayLondon}>
-                  London
-                </a>
-              </li>
-              <li>
-                <a href="/" onClick={displayMadrid}>
-                  Madrid
-                </a>
-              </li>
-              <li>
-                <a href="/" onClick={displaySeoul}>
-                  Seoul
-                </a>
-              </li>
-              <li>
-                <a href="/" onClick={displayTokyo}>
-                  Tokyo
-                </a>
-              </li>
-              <li>
-                <a href="/" onClick={displayParis}>
-                  Paris
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <ThemeBox />
         <div className="Search">
           <div className="box b">
             <form id="search-location" onSubmit={handleSubmit}>
