@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="box c">
         <div className="row row-cols-2">
-          <div className="col md-6">
+          <div className="col basicInfo">
             <div className="city">{props.data.city}</div>
             <div className="date">
               <FormattedDate date={props.data.date} />
@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
               <CurrentTemperature celsius={props.data.temperature} />
             </div>
           </div>
-          <div className="col md-6 currenticon">
+          <div className="col currenticon">
             <WeatherIcon code={props.data.icon} size={140} />
           </div>
         </div>
